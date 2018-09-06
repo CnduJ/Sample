@@ -17,6 +17,8 @@ public class Test2 {
 		// System.setProperty("webdriver.chrome.driver","/home/tectoro/Desktop/usr/chromedriver.exe");
 		
 	driver.get("https://www.seleniumhq.org/");
+	String str;
+	str="Saro";
 	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 	
 	}
